@@ -33,15 +33,21 @@
 ![image-20200615193340241](img/README/image-20200615193340241.png)
 
 填写应用名称
+
 > 📘 提示
 > 
 >1. 坑点一：账户注册不上？自行解决，账户都不会注册的话，没人能帮你了，本人使用Gmail
 >2. 坑点二：没有免费资源？自己检查是否选择的是达拉斯，是否选择的是Lite
 >3. 坑点三：App无法启动？不用硬刚原作者的Go环境，随便选个能启动的就行
 
+
 接着进入右上角命令行
 
 ![image-20200615210821081](img/README/image-20200615210821081.png)
+
+> 📘 提示
+> 一定要注意观察Cloud Shell的右上角Location位置，一定要选择Dallas，否则会报错（有时候Shell会自动跑到其它区域）
+>1. 坑点四：提示Could not get Cloud Foundry instances: Neither a Cloud Foundry public instance nor a Cloud Foundry enterprise environment was found. 自行检查Shell右上角>的位置是否处于Dallas，很多时候会被分配到其它区域如Tokyo
 
 打开命令行，右上角选择相应的地区（Dallas），粘贴一键安装脚本：
 
