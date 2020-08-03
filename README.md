@@ -262,6 +262,7 @@ fetch(request)
 这里假设我获取的最优ip是`104.17.188.91`
 
 在客户端把地址换成ip，伪装域名换成我们cloudflare的workers的域名即可
+>使用trojan-Qt5,需要将：协议设置——请求头——改为Host|workers域名；TLS设置——服务器——workers域名
 
 ![image-20200615215820188](img/README/image-20200615215820188.png)
 
